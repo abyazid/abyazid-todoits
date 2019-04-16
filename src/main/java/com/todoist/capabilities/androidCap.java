@@ -25,8 +25,8 @@ public class androidCap {
         capabilities.setCapability("appActivity", "com.todoist.activity.HomeActivity");
         capabilities.setCapability("appPackage", "com.todoist");
         capabilities.setCapability("appWaitActivity", "");
-        //capabilities.setCapability(MobileCapabilityType.FULL_RESET, "true");
-        capabilities.setCapability(MobileCapabilityType.NO_RESET, "true");
+        //capabilities.setCapability(MobileCapabilityType.FULL_RESET, "");
+        capabilities.setCapability(MobileCapabilityType.NO_RESET, "false");
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "40");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
         capabilities.setCapability(MobileCapabilityType.TAKES_SCREENSHOT, "true");

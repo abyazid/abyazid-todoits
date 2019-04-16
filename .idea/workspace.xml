@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="892723dd-8093-40fe-b212-dddcddb3ff6f" name="Default Changelist" comment="" />
+    <list default="true" id="892723dd-8093-40fe-b212-dddcddb3ff6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/abyazid-todoits-github.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/todoist/capabilities/androidCap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/todoist/capabilities/androidCap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/CreateProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/CreateProject.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -21,25 +32,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CreateProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="392">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="198">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="375">
+              <caret line="31" column="74" lean-forward="true" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,17 +103,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/CreateProject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1874" />
@@ -95,56 +135,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="todoist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="todoist" type="462c0819:PsiDirectoryNode" />
-              <item name="capabilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoistTechnicalTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoistTechnicalTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555409768840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555434699622" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -180,7 +172,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CreateProject.createNewProject">
+    <configuration name="CreateProject.createNewProject" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="abyazid-todoits-github" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.CreateProject" />
+      <option name="METHOD_NAME" value="createNewProject" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateProject.userLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="todoistTechnicalTest" />
       <extension name="coverage">
@@ -201,6 +211,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateProject.createNewProject" />
         <item itemvalue="TestNG.CreateProject.userLogin" />
       </list>
     </recent_temporary>
@@ -216,72 +227,97 @@
       <option name="presentableId" value="Default" />
       <updated>1555397467688</updated>
       <workItem from="1555397473363" duration="7833000" />
+      <workItem from="1555425691266" duration="5470000" />
     </task>
+    <task id="LOCAL-00001" summary="Update:&#10;&#10;1. New Page Object class &#10;2. Add new test case">
+      <created>1555434692713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555434692713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateProject_userLogin - 2019.04.16 at 16h 02m 56s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateProject_userLogin - 2019.04.16 at 16h 42m 57s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateProject_userLogin - 2019.04.16 at 16h 53m 17s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateProject_userLogin - 2019.04.16 at 16h 57m 20s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateProject_userLogin - 2019.04.16 at 17h 13m 07s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CreateProject_userLogin - 2019.04.16 at 17h 15m 48s.xml">
       <configuration name="CreateProject.userLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CreateProject_userLogin - 2019.04.17 at 00h 06m 37s.xml">
+      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_userLogin - 2019.04.17 at 00h 08m 03s.xml">
+      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 43m 16s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 43m 55s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 45m 45s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 48m 10s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 50m 05s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 57m 13s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 59m 26s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7833000" />
+    <option name="totallyTimeSpent" value="13303000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17384106" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17549668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3298647" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3298647" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298647" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="RestServices" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="ReST Console" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="REST Client" order="7" weight="0.3298647" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298647" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298647" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="ReST Console" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update:&#10;&#10;1. New Page Object class &#10;2. Add new test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update:&#10;&#10;1. New Page Object class &#10;2. Add new test case" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -293,30 +329,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="31" column="74" lean-forward="true" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CreateProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        <state relative-caret-position="198">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CreateProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
