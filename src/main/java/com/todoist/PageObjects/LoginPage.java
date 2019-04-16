@@ -4,15 +4,21 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.junit.Assert;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 
     AndroidDriver<AndroidElement> driver;
+    WebDriverWait wait;
+    static int TIMEOUT = 20;
 
     public LoginPage(AndroidDriver driver) {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+        wait = new WebDriverWait(driver, TIMEOUT);
     }
 
     @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc='Todoist Logo']")
@@ -47,8 +53,14 @@ public class LoginPage {
      */
     public void emailLogin(String email, String password) {
         // Enter email address
-        txtEmailExistInput.sendKeys(email);
-        btnContinueWithEmail.click();
+        try {
+            wait.until(ExpectedConditions
+                .visibilityOf(txtEmailExistInput));
+            txtEmailExistInput.sendKeys(email);
+            btnContinueWithEmail.click();
+        }catch (Exception e) {
+            Assert.fail("Fail to login using email address");
+        }
 
         // Enter password
         txtLogInPassword.sendKeys(password);
