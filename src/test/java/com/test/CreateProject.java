@@ -1,6 +1,7 @@
 package com.test;
 
-import com.todoist.PageObjects.HomePage;
+import com.todoist.PageObjects.AddProjectPage;
+import com.todoist.PageObjects.UserPage;
 import com.todoist.PageObjects.LoginPage;
 import com.todoist.capabilities.androidCap;
 import io.appium.java_client.android.AndroidDriver;
@@ -8,11 +9,12 @@ import io.appium.java_client.android.AndroidElement;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
+
+import static org.hamcrest.CoreMatchers.is;
 
 public class CreateProject extends androidCap {
 
@@ -22,21 +24,23 @@ public class CreateProject extends androidCap {
 
     // Page object class
     LoginPage loginPage;
-    HomePage homePage;
+    UserPage userPage;
+    AddProjectPage addProjectPage;
 
     @BeforeTest
     public void setup() throws MalformedURLException {
         driver = MobileCapabilities();
         wait = new WebDriverWait(driver, TIMEOUT);
         loginPage = new LoginPage(driver);
-        homePage = new HomePage(driver);
+        userPage = new UserPage(driver);
+        addProjectPage = new AddProjectPage(driver);
     }
 
     @Test
     public void userLogin() {
         // Wait for page to be loaded
         wait.until(ExpectedConditions
-            .visibilityOf(loginPage.btnEmailSignIn));
+                .visibilityOf(loginPage.btnEmailSignIn));
 
         // Login using email address
         loginPage.btnEmailSignIn.click();
@@ -45,7 +49,7 @@ public class CreateProject extends androidCap {
         // Validate user land on home screen
         try {
             wait.until(ExpectedConditions
-                    .visibilityOf(homePage.btnSideMenu));
+                    .visibilityOf(userPage.btnSideMenu));
         }catch (Exception e) {
             Assert.fail("Side menu not visible.Unable to load home/dashboard page ");
         }
@@ -58,10 +62,25 @@ public class CreateProject extends androidCap {
      */
     @Test (dependsOnMethods = {"userLogin"})
     public void createNewProject() {
+
         // Tap side menu
-        homePage.btnSideMenu.click();
+        userPage.btnSideMenu.click();
 
         // Create new Project
-        homePage.addNewProject();
+        userPage.createNewProjectPage();
+
+        // Enter new project details
+        addProjectPage.txtProjectName.sendKeys("Project Aby Azid");
+        addProjectPage.tickBoxFavourite.click();
+        addProjectPage.submitNewProject.click();
+
+        /*
+         Verify that project was successfully created
+         */
+        wait.until(ExpectedConditions
+            .visibilityOf(userPage.btnSideMenu));
+        String projectName = "Project Aby Azid";
+        Assert.assertThat(driver.findElementByXPath("//android.widget.TextView[@text='"+projectName+"']").isDisplayed(), is(true));
+
     }
 }

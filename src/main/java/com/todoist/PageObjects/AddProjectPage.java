@@ -21,6 +21,17 @@ public class AddProjectPage {
     @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"\")")
     public AndroidElement colorPicker;
 
+    @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"com.todoist:id/parent\")")
+    public AndroidElement txtBoxParent;
+
+    @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"com.todoist:id/collaborators\")")
+    public AndroidElement txtBoxCollaborators;
+
+    @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"com.todoist:id/favorite\")")
+    public AndroidElement tickBoxFavourite;
+
+    @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"com.todoist:id/menu_form_submit\")")
+    public AndroidElement submitNewProject;
 
     public void selectColorPicker(String color) {
         colorPicker.click();

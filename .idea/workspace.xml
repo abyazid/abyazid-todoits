@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="892723dd-8093-40fe-b212-dddcddb3ff6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/abyazid-todoits-github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/todoist/WebElements/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/MobileBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/AddProjectPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/UserPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/todoist/WebElements/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/MobileBrowser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/CreateProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/CreateProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/HomePage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/todoist/PageObjects/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/todoist/capabilities/androidCap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/todoist/capabilities/androidCap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/CreateProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/CreateProject.class" afterDir="false" />
@@ -23,20 +31,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CreateProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+            <state relative-caret-position="256">
+              <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CreateProject.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="208">
+              <caret line="85" column="33" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/MobileBrowser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,22 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="477">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,10 +77,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/UserPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="358">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" column="74" lean-forward="true" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+            <state relative-caret-position="409">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,24 +109,33 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>java-client</find>
+      <find>hamcrest</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/MobileBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/todoist/WebElements/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/test/CreateProject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/UserPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/CreateProject.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
+    <option name="x" value="74" />
+    <option name="y" value="166" />
     <option name="width" value="1874" />
     <option name="height" value="1096" />
   </component>
@@ -129,8 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,16 +151,83 @@
               <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
               <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="todoist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="todoist" type="462c0819:PsiDirectoryNode" />
+              <item name="capabilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="todoist" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abyazid-todoits-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abyazid-todoits-github" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555434699622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555518332235" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -209,9 +289,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MobileBrowser.gotoPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="abyazid-todoits-github" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.MobileBrowser" />
+      <option name="METHOD_NAME" value="gotoPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CreateProject.createNewProject" />
+        <item itemvalue="TestNG.MobileBrowser.gotoPage" />
         <item itemvalue="TestNG.CreateProject.userLogin" />
       </list>
     </recent_temporary>
@@ -228,6 +327,9 @@
       <updated>1555397467688</updated>
       <workItem from="1555397473363" duration="7833000" />
       <workItem from="1555425691266" duration="5470000" />
+      <workItem from="1555463393200" duration="5317000" />
+      <workItem from="1555506109337" duration="1747000" />
+      <workItem from="1555508497079" duration="9221000" />
     </task>
     <task id="LOCAL-00001" summary="Update:&#10;&#10;1. New Page Object class &#10;2. Add new test case">
       <created>1555434692713</created>
@@ -240,50 +342,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateProject_userLogin - 2019.04.16 at 17h 15m 48s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateProject_userLogin - 2019.04.17 at 00h 06m 37s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateProject_userLogin - 2019.04.17 at 00h 08m 03s.xml">
-      <configuration name="CreateProject.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 43m 16s.xml">
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 22h 52m 08s.xml">
       <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 43m 55s.xml">
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 22h 56m 08s.xml">
       <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 45m 45s.xml">
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 23h 03m 51s.xml">
       <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 48m 10s.xml">
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 23h 16m 15s.xml">
       <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 50m 05s.xml">
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 23h 17m 04s.xml">
       <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 57m 13s.xml">
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 23h 21m 50s.xml">
       <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 00h 59m 26s.xml">
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 23h 29m 39s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.17 at 23h 31m 21s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.18 at 00h 22m 32s.xml">
+      <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateProject_createNewProject - 2019.04.18 at 00h 24m 18s.xml">
       <configuration name="CreateProject.createNewProject" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13303000" />
+    <option name="totallyTimeSpent" value="29588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17549668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18046358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298647" />
@@ -320,17 +423,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update:&#10;&#10;1. New Page Object class &#10;2. Add new test case" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/WebElements/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="74" lean-forward="true" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+        <state relative-caret-position="340">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -339,18 +435,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="453">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/capabilities/androidCap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="409">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -359,20 +465,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/todoist/PageObjects/AddProjectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="477">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/MobileBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CreateProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="256">
+          <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

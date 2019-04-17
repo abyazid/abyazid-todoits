@@ -6,11 +6,11 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class UserPage {
 
     private AndroidDriver<AndroidElement> driver;
 
-    public HomePage(AndroidDriver<AndroidElement> driver) {
+    public UserPage(AndroidDriver<AndroidElement> driver) {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
@@ -18,12 +18,19 @@ public class HomePage {
     @AndroidFindBy(xpath = "//android.widget.ImageButton[@content-desc='Change the current view']")
     public AndroidElement btnSideMenu;
 
-    public void addNewProject() {
-        AndroidElement newProject = driver.findElementByXPath(
-          "//android.widget.TextView[@text='Projects']/following::" +
-                  "android.widget.TextView[@resource-id='com.todoist:id/add']"
-        );
-        newProject.click();
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Projects']")
+    public AndroidElement btnProject;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Add project']")
+    public AndroidElement btnAddProject;
+
+    /*
+     This function is for add new project
+     */
+    public void createNewProjectPage() {
+        btnProject.click();
+        btnAddProject.click();
+
     }
 
 

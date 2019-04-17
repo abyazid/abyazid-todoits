@@ -15,7 +15,7 @@ public class LoginPage {
     WebDriverWait wait;
     static int TIMEOUT = 20;
 
-    public LoginPage(AndroidDriver driver) {
+    public LoginPage(AndroidDriver<AndroidElement> driver) {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
         wait = new WebDriverWait(driver, TIMEOUT);
@@ -44,7 +44,6 @@ public class LoginPage {
 
     @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"com.todoist:id/btn_log_in\")")
     public AndroidElement btnLogIn;
-
 
     /**
      *
