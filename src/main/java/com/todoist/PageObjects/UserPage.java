@@ -24,6 +24,15 @@ public class UserPage {
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Add project']")
     public AndroidElement btnAddProject;
 
+    @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc='More options']")
+    public AndroidElement btnMoreOption;
+
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Completed tasks\")")
+    public AndroidElement completedTask;
+
+    @AndroidFindBy(xpath = "//android.widget.ImageButton[@content-desc='Navigate up']")
+    public AndroidElement btnNavigateUp;
+
     /*
      This function is for add new project
      */

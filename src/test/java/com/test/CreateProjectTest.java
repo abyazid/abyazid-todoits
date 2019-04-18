@@ -14,6 +14,7 @@ import org.testng.annotations.*;
 
 import java.net.MalformedURLException;
 
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 
 public class CreateProjectTest extends androidCap {
@@ -65,7 +66,7 @@ public class CreateProjectTest extends androidCap {
      */
     @DataProvider(name = "Create Project")
     public static Object[][] newProjectDetails() {
-        return new Object[][] {{"Project Technical Test"}, {"My Daily Task"}};
+        return new Object[][] {{"Project Technical Test"}};
     }
 
     /**
@@ -74,7 +75,7 @@ public class CreateProjectTest extends androidCap {
      */
     @DataProvider(name = "Simple Task")
     public static Object[][] addSimpleTask() {
-        return new Object[][] {{"Project Technical Test", "My Simple Task"}, {"My Daily Task", "Morning Task"}};
+        return new Object[][] {{"Project Technical Test", "My Simple Task"}};
     }
 
     /**
@@ -103,7 +104,8 @@ public class CreateProjectTest extends androidCap {
         wait.until(ExpectedConditions
             .visibilityOf(userPage.btnSideMenu));
         //String projectName = "Project Aby Azid";
-        Assert.assertThat(driver.findElementByXPath("//android.widget.TextView[@text='"+projectName+"']").isDisplayed(), is(true));
+        Assert.assertThat(driver.findElementByXPath(
+                "//android.widget.TextView[@text='"+projectName+"']").isDisplayed(), equalTo(true));
 
     }
 
@@ -132,14 +134,31 @@ public class CreateProjectTest extends androidCap {
         try {
             projectPage.selectProject(projectName);
         } catch (Exception e) {
-            Assert.fail("Project Name not found");
+            Assert.fail("Project Name " + projectName + " not found");
         }
 
         // Add new task
         projectPage.addNewTask.click();
         taskPage.addSimpleTask(taskName);
+
+        // Validate new task successfull added
+        Assert.assertThat(driver.findElementByXPath(
+                "//android.widget.TextView[@text='"+taskName+"']"
+        ).isDisplayed(), equalTo(true));
     }
 
+    /**
+     * 	3. Test “Reopen Task”
+     * 		1. Open mobile application
+     * 		2. Open test project
+     * 		3. Created test task
+     * 		4. Complete test task.
+     * 		5. Reopen test task via API.
+     * Mobile: Verify that test task appears in your test project.
+     *
+     * @param projectName
+     * @param taskName
+     */
     @Test(dataProvider = "Simple Task", priority = 2)
     public void createReopenTask(String projectName, String taskName) {
         // Tap side menu
@@ -154,8 +173,40 @@ public class CreateProjectTest extends androidCap {
         try {
             projectPage.selectProject(projectName);
         } catch (Exception e) {
-            Assert.fail("Project Name not found");
+            Assert.fail("Project Name : " + projectName + " not found");
         }
+
+        // Search for task name
+        try {
+            taskPage.selectTaskToComplete(taskName);
+        } catch (Exception e) {
+            Assert.fail("Task name was not found for project: " + projectName);
+        }
+
+        // Validate no more test
+
+        // tap more options btn and select completed task
+        userPage.btnMoreOption.click();
+        userPage.completedTask.click();
+
+        // Validate the completed task existed
+        taskPage.selectCompletedTask(taskName);
+        taskPage.btnReopenTask.click();
+
+        // Navigate back to Project page
+        userPage.btnNavigateUp.click();
+
+        /*
+         Validate completed task is succssfully reopen
+         and displayed in task list
+         */
+        wait.until(ExpectedConditions
+            .visibilityOf(projectPage.taskItems));
+
+        Assert.assertThat(driver.findElementByXPath(
+                "//android.widget.TextView[@text='"+taskName+"']"
+        ).isDisplayed(), equalTo(true));
+
 
     }
 

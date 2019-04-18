@@ -2,6 +2,7 @@ package com.todoist.PageObjects;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AndroidFindAll;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
@@ -35,6 +36,9 @@ public class ProjectPage {
 
     @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"com.todoist:id/fab\")")
     public AndroidElement addNewTask;
+
+    @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"com.todoist:id/item\")")
+    public AndroidElement taskItems;
 
     public void selectColorPicker(String color) {
         colorPicker.click();
