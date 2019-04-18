@@ -62,7 +62,14 @@ public class LoginPage {
         }
 
         // Enter password
-        txtLogInPassword.sendKeys(password);
+        try {
+            wait.until(ExpectedConditions
+                .visibilityOf(txtLogInPassword));
+            txtLogInPassword.sendKeys(password);
+        }catch (Exception e) {
+            Assert.fail("Fail to enter password");
+        }
+
         btnLogIn.click();
     }
 }

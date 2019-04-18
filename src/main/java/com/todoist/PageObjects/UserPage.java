@@ -29,9 +29,15 @@ public class UserPage {
      */
     public void createNewProjectPage() {
         btnProject.click();
-        btnAddProject.click();
-
+        try {
+            btnAddProject.click();
+        }catch (Exception e) {
+            /*
+             If Add project button not visible,
+             expand project menu again
+             */
+            btnProject.click();
+            btnAddProject.click();
+        }
     }
-
-
 }
