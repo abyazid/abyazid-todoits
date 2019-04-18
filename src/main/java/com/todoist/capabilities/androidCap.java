@@ -24,13 +24,10 @@ public class androidCap {
         capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         capabilities.setCapability("appActivity", "com.todoist.activity.HomeActivity");
         capabilities.setCapability("appPackage", "com.todoist");
-        //capabilities.setCapability(MobileCapabilityType.FULL_RESET, "true");
         capabilities.setCapability(MobileCapabilityType.NO_RESET, "false");
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "30");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
         capabilities.setCapability(MobileCapabilityType.TAKES_SCREENSHOT, "true");
-        //capabilities.setCapability("unicodeKeyboard", true);
-        //capabilities.setCapability("resetKeyboard", true);
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
         return driver;
